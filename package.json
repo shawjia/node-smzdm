@@ -1,0 +1,41 @@
+{
+  "name": "smzdm",
+  "description": "CLI for smzdm.com",
+  "version": "0.1.0",
+  "homepage": "https://github.com/shawjia/smzdm",
+  "author": {
+    "name": "shawjia",
+    "email": "shawjia@gmail.com",
+    "url": "http://shawjia.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shawjia/smzdm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shawjia/smzdm/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shawjia/smzdm/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/smzdm",
+  "bin": {
+    "smzdm": "bin/smzdm"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "colors": "*",
+    "feedparser": "*"
+  },
+  "keywords": [
+    "smzdm.com",
+    "什么值得买",
+    "网购",
+    "CLI"
+  ]
+}
