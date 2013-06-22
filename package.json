@@ -1,7 +1,7 @@
 {
   "name": "smzdm",
   "description": "CLI for smzdm.com",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/shawjia/smzdm",
   "author": {
     "name": "shawjia",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "colors": "*",
-    "feedparser": "*"
+    "feedparser": "0.10.x"
   },
   "keywords": [
     "smzdm.com",

@@ -1,13 +1,11 @@
 #!/usr/bin/env coffee
 
 feedparser = require 'feedparser'
-colors = require 'colors'
-
-url = 'http://feed.smzdm.com/'
+colors     = require 'colors'
 
 feedparser
-  .parseUrl(url)
+  .parseUrl('http://feed.smzdm.com/')
   .on 'article', (res) ->
     title = "# #{res.title}\n".yellow
-    link = "#{res.link}".grey
+    link  = "#{res.link}".grey
     console.log "#{title}  #{link}"
